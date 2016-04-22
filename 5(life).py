@@ -44,3 +44,4 @@ fig, ax = plt.subplots()
 mat = ax.matshow(grid)
 ani = animation.FuncAnimation(fig, update, interval=50, save_count=50)
 plt.show()
+print "Hello World"
